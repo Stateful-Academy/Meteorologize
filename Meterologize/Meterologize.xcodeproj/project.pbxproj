@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410CAA82299459EE00181033 /* deletemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410CAA81299459EE00181033 /* deletemeTableViewController.swift */; };
 		7C021CF72992B3C800A6FE1F /* CityListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C021CF62992B3C800A6FE1F /* CityListTableViewController.swift */; };
 		7C6722F5299174BB00FA6B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6722F4299174BB00FA6B6D /* AppDelegate.swift */; };
 		7C6722F7299174BB00FA6B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6722F6299174BB00FA6B6D /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410CAA81299459EE00181033 /* deletemeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletemeTableViewController.swift; sourceTree = "<group>"; };
 		7C021CF62992B3C800A6FE1F /* CityListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListTableViewController.swift; sourceTree = "<group>"; };
 		7C6722F1299174BB00FA6B6D /* Meterologize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meterologize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6722F4299174BB00FA6B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				7C672313299185A000FA6B6D /* CityDetailViewController.swift */,
 				7C021CF62992B3C800A6FE1F /* CityListTableViewController.swift */,
+				410CAA81299459EE00181033 /* deletemeTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6722F5299174BB00FA6B6D /* AppDelegate.swift in Sources */,
+				410CAA82299459EE00181033 /* deletemeTableViewController.swift in Sources */,
 				7C67230E299176E000FA6B6D /* City.swift in Sources */,
 				7C672312299179DA00FA6B6D /* CityController.swift in Sources */,
 				7C672314299185A000FA6B6D /* CityDetailViewController.swift in Sources */,

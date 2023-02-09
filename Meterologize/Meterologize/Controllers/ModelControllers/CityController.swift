@@ -26,4 +26,9 @@ class CityController {
         cityToUpdate.name = newName
         cityToUpdate.currentTemp = newTemp
     }
+    
+    func deleteCity(cityToDelete city: City) {
+        guard let postionOfTheCityTheyWantToRemove = cities.firstIndex(of: city) else {return}
+        cities.remove(at: postionOfTheCityTheyWantToRemove)
+    }
 }
